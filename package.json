@@ -1,0 +1,18 @@
+{
+  "name": "puppeteer-test",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "finder": "node index.js finder",
+    "reserver": "node index.js reserver"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.15.0"
+  }
+}
