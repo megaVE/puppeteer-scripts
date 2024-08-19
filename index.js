@@ -1,4 +1,4 @@
-import { runFinder } from "./src/finder.js"
+// import { runFinder } from "./src/finder.js"
 import { runReserver } from "./src/reserver.js"
 
 const args = process.argv.slice(2)
@@ -12,7 +12,7 @@ async function runScript(scriptFunction) {
 
 switch(script) {
   case "finder":
-    await runScript(runFinder)
+    // await runScript(runFinder)
     break
   
   case "reserver":
